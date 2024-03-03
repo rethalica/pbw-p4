@@ -1,3 +1,5 @@
+
+// untuk mengaktifkan smooth scrolling
 const navBar = document.querySelector(".navbar");
 
 window.addEventListener("scroll", () => {
