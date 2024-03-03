@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontak | JakIngfo</title>
+
+  <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="shortcut Icon" href="/assets/icon/icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="dist/css/style.css" />
+
+  <style>
+    .navbar {
+      background-color: rgba(21, 24, 31);
+    }
+    .activities-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 80px; /* Menambahkan margin atas */
+    }
+
+    .activity-card {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .activity-card img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .activity-card h4 {
+      color: black;
+    }
+
+    .activity-card p {
+      color: black;
+    }
+  </style>
+</head>
+<body id="kontak">
+        <!-- Navbar -->
+        <nav
+        class="navbar navbar-expand-lg fixed-top navbar-dark animate__animated animate__fadeInDown"
+      >
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-4" href="#">JakIngfo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link active mx-1" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="about.html">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="destinasi.html"
+                  >Destinasi Wisata</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="event.html">Aktivitas dan Acara</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="tips.html">Tips Perjalanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="kontak.html">Kontak</a>
+              </li>
+            </ul>
+            <div class="text-center">
+              <i class="fa-brands fa-instagram fs-5 mx-2"></i>
+              <i class="fa-brands fa-facebook fs-5 mx-2"></i>
+              <i class="fa-brands fa-twitter fs-5 mx-2"></i>
+              <i class="fa-brands fa-tiktok fs-5 mx-2"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+  
+
+  <section id="kontak-hero" id="kontak-hero" style="margin-top: 40px;">
+    <!-- rest of the code -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h1 class="mt-5 mb-3 fw-bold">Hubungi Kami</h1>
+          <p class="fs-5">
+            Punya pertanyaan, komentar, atau ingin bekerja sama dengan kami?
+            Jangan ragu untuk menghubungi kami!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+            <form
+              action=""
+              method="POST"
+              class="needs-validation"
+              novalidate
+            >
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nama"
+                  name="nama"
+                  placeholder="Masukkan nama lengkap Anda"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Alamat Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Masukkan alamat email Anda"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="pesan"
+                  name="pesan"
+                  rows="3"
+                  placeholder="Tulis pesan Anda"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+            <br>
+        </div>
+        <div class="col-lg-6>">
+          <p class="mb-0">
+            Hubungi kami melalui <a href="mailto:iimuharramissyiham@apps.ipb.ac.id">email</a> jika anda ingin memberikan masukan, mengalami masalah teknis, atau ingin berkolaborasi.
+          </p>
+      </div>
+      </div>
+    </section>
+    
+    <br>
+    <section id="kontak-alamat">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="mb-3">Alamat</h3>
+            <p class="mb-0">
+              Jl. Kumbang No.14, RT.02/RW.06, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="mb-3">Jam Operasional</h3>
+            <ul class="list-unstyled">
+              <li>Senin - Jumat: 8:00 - 17:00 WIB</li>
+              <li>Sabtu & Minggu: Tutup</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- Footer -->
+        <div class="footer pt-5">
+            <div class="container">
+              <div class="row row-cols-lg-3 row-cols-1 justify-content-between">
+                <div class="col col-lg-6 mb-lg-0 mb-4">
+                  <h2 class="fw-bold text-white mb-3">JakIngfo</h2>
+                  <p class="text-white-50">
+                    Website berisi informasi mengenai tempat wisata, aktivitas dan
+                    acara di Jakarta yang tersebar di seluruh daerah administrasi.
+                  </p>
+                </div>
+                <div class="col col-lg-2 d-flex flex-column mb-lg-0 mb-4">
+                  <h5 class="fw-bold text-white">Menu</h5>
+                  <a href="index.html" class="text-white-50 mt-3 text-decoration-none"
+                    >Home</a
+                  >
+                  <a href="about.html" class="text-white-50 mt-2 text-decoration-none"
+                    >About</a
+                  >
+                  <a
+                    href="destinasi.html"
+                    class="text-white-50 mt-2 text-decoration-none"
+                    >Destinasi Wisata</a
+                  >
+                  <a href="event.html" class="text-white-50 mt-2 text-decoration-none"
+                    >Aktivitas dan Acara</a
+                  >
+                  <a href="tips.html" class="text-white-50 mt-2 text-decoration-none"
+                    >Tips Perjalanan</a
+                  >
+                  <a
+                    href="kontak.html"
+                    class="text-white-50 mt-2 text-decoration-none"
+                    >Kontak</a
+                  >
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p class="text-white text-center copyright">Kelompok 3 TRK B</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Footer -->
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-f0jGgXY4SlPpChOKvzjP4p8frZcEhjJc70krzQpnrqT8jTbeH1eD9brV7z2pVW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+  </html>
+  
