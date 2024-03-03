@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinasi Wisata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- icon -->
+    <link rel="shortcut Icon" href="/assets/icon/icon.png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+     <!-- Font Awesome CDN -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   />
+
+    <link rel="stylesheet" href="dist/css/style.css  " />
+    <style>
+        .bg-black {
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+</head>
+<body id="home">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark animate__animated animate__fadeInDown">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-4" href="#">JakIngfo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link active mx-1" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="about.html">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="destinasi.html">Destinasi Wisata</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="event.html">Aktivitas dan Acara</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="tips.html">Tips Perjalanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="kontak.html">Kontak</a>
+              </li>
+            </ul>
+            <div class="text-center">
+              <i class="fa-brands fa-instagram fs-5 mx-2"></i>
+              <i class="fa-brands fa-facebook fs-5 mx-2"></i>
+              <i class="fa-brands fa-twitter fs-5 mx-2"></i>
+              <i class="fa-brands fa-tiktok fs-5 mx-2"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h1 class="text-white fw-bold mb-4 animate__animated animate__fadeInUp animate__delay-1s">
+                Destinasi Wisata
+              </h1>
+              <p class="text-white mb-4 text-opacity-75 animate__animated animate__fadeInUp animate__delay-1s">Berikut beberapa destinasi wisata yang dapat anda kunjungi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="projects" id="projects" style="background-color: lightgrey;">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col">
+              <h2
+                class="border-bottom pb-2 fw-semibold"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                Taman Hiburan <br />
+                dan Rekreasi
+              </h2>
+            </div>
+          </div>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <img
+                src="assets/img/destinasi/dufan.jpg"
+                class="w-100 mb-3"
+                alt="dufan"
+              />
+              <h4 class="fw-semibold">Dunia Fantasi Ancol</h4>
+              <p>
+                Dunia Fantasi adalah sebuah taman hiburan yang 
+                terletak di kawasan Taman Impian Ancol, Jakarta 
+                Utara.
+              </p>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <img
+                src="assets/img/destinasi/seaworld.jpeg"
+                class="w-100 mb-3"
+                alt="unsplash.com"
+              />
+              <h4 class="fw-semibold">Sea World</h4>
+              <p>
+                Sea World Ancol adalah sebuah oceanarium yang terdapat
+                di dalam Taman Impian Jaya Ancol.
+              </p>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="700"
+            >
+              <img
+                src="assets/img/destinasi/tamanmini.jpg"
+                class="w-100 mb-3"
+                alt="unsplash.com"
+              />
+              <h4 class="fw-semibold">Taman Mini Indonesia Indah</h4>
+              <p>Taman Mini Indonesia Indah merupakan suatu taman hiburan
+                bertemakan kebudayaan Indonesia di Jakarta Timur, DKI Jakarta.</p>
+            </div>
+          </div>
+          <br /> <br />
+
+          <div class="row mb-4">
+            <div class="col">
+              <h2
+                class="border-bottom pb-2 fw-semibold"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                Sejarah & Budaya
+              </h2>
+            </div>
+          </div>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <img
+                src="assets/img/destinasi/museumni.jpg"
+                class="w-100 mb-3"
+                alt="dufan"
+              />
+              <h4 class="fw-semibold">Museum Nasional Indonesia</h4>
+              <p>
+                Museum Nasional Indonesia, atau yang sering disebut dengan
+                Museum Gajah, adalah sebuah museum arkeologi, sejarah, etnografi, 
+                dan geografi yang terletak di Jakarta Pusat dan persisnya di 
+                Jalan Merdeka Barat 12.
+              </p>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <img
+                src="assets/img/destinasi/kotujkt.jpg"
+                class="w-100 mb-3"
+                alt="unsplash.com"
+              />
+              <h4 class="fw-semibold">Kota Tua Jakarta</h4>
+              <p>
+                Kota Tua Jakarta, juga dikenal dengan sebutan Batavia Lama 
+                (Oud Batavia), adalah sebuah wilayah kecil di Jakarta, Indonesia
+              </p>
+            </div>
+          </div>
+          <br /> <br />
+
+          <div class="row mb-4">
+            <div class="col">
+              <h2
+                class="border-bottom pb-2 fw-semibold"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                Religi
+              </h2>
+            </div>
+          </div>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <img
+                src="assets/img/destinasi/masjidistq.jpg"
+                class="w-100 mb-3"
+                alt="dufan"
+              />
+              <h4 class="fw-semibold">Masjid Istiqlal</h4>
+              <p>
+                Masjid Istiqlal adalah sebuah masjid nasional yang berada di kota
+                Jakarta Pusat, Provinsi Daerah Khusus Ibukota Jakarta, Indonesia.
+                Masjid ini menjadi masjid terbesar di Asia Tenggara dan masjid
+                terbesar keenam di dunia dalam hal kapasitas jamaah.
+              </p>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <img
+                src="assets/img/destinasi/msjdperahu.jpg"
+                class="w-100 mb-3"
+                alt="unsplash.com"
+              />
+              <h4 class="fw-semibold">Masjid Perahu Baiturrahman</h4>
+              <p>
+                Masjid yang diberi nama Masjid Agung Al Munada Darussalam Baiturrahman
+                ini terletak di antara gedung-gedung tinggi Jalan Casablanca, Jakarta 
+                Selatan.
+              </p>
+            </div>
+          </div>
+          <br /> <br />
+
+          <div class="row mb-4">
+            <div class="col">
+              <h2
+                class="border-bottom pb-2 fw-semibold"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                Alam & Taman
+              </h2>
+            </div>
+          </div>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <img
+                src="assets/img/destinasi/jktaqua.jpg"
+                class="w-100 mb-3"
+                alt="dufan"
+              />
+              <h4 class="fw-semibold">Jakarta Aquarium & Safari</h4>
+              <p>
+                Jakarta Akuarium dan Safari adalah akuarium indoor terbesar di Indonesia,
+                di bawah naungan Taman Safari Indonesia dan bekerja sama dengan Aquaria KLCC,
+                Malaysia.
+              </p>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <img
+                src="assets/img/destinasi/tmnsuropati.jpg"
+                class="w-100 mb-3"
+                alt="unsplash.com"
+              />
+              <h4 class="fw-semibold">Taman Suropati</h4>
+              <p>
+                Taman ini merupakan pusat kawasan Menteng, berada tepat di antara pertemuan 
+                tiga jalan utama, yaitu Menteng Boulevard (Jalan Teuku Umar), Orange Boulevard
+                (Jalan Diponegoro), dan Nassau Boulevard (Jalan Imam Bonjol).
+              </p>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <img
+                src="assets/img/destinasi/ragunan.jpg"
+                class="w-100 mb-3"
+                alt="unsplash.com"
+              />
+              <h4 class="fw-semibold">Kebun Binatang Ragunan</h4>
+              <p>
+                Taman Margasatwa Ragunan atau juga disebut Kebun Binatang Ragunan adalah sebuah
+                kebun binatang yang terletak di daerah Ragunan, Pasar Minggu, Jakarta Selatan,
+                Indonesia. Di dalamnya terdapat berbagai koleksi yang terdiri dari 295 spesies
+                dan 4040 spesimen.
+              </p>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <img
+                src="assets/img/destinasi/menteng.jpg"
+                class="w-100 mb-3"
+                alt="unsplash.com"
+              />
+              <h4 class="fw-semibold">Taman Menteng</h4>
+              <p>
+                Taman Menteng adalah sebuah taman yang berlokasi di kawasan Menteng, Jakarta Pusat.
+                Taman ini dulunya ditempati oleh Stadion Menteng.
+              </p>
+            </div>
+          </div>
+          <br /> <br />
+
+          <div class="row mb-4">
+            <div class="col">
+              <h2
+                class="border-bottom pb-2 fw-semibold"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                Seni & Kreatif
+              </h2>
+            </div>
+          </div>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <img
+                src="assets/img/destinasi/galerini.jpg"
+                class="w-100 mb-3"
+                alt="dufan"
+              />
+              <h4 class="fw-semibold">Galeri Nasional Indonesia</h4>
+              <p>
+                Galeri Nasional Indonesia adalah sebuah lembaga budaya negara atau sebagai museum
+                seni rupa modern dan kontemporer. Di sini terdapat gedung yang berfungsi antara lain
+                sebagai tempat pameran, dan perhelatan seni rupa Indonesia dan mancanegara.
+              </p>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <img
+                src="assets/img/destinasi/museummacan.jpg"
+                class="w-100 mb-3"
+                alt="unsplash.com"
+              />
+              <h4 class="fw-semibold">Museum MACAN</h4>
+              <p>
+                The Museum of Modern and Contemporary Art in Nusantara (Museum Seni Modern dan
+                Kontemporer di Nusantara) atau Museum MACAN adalah museum seni di Kebon Jeruk di
+                Jakarta, Indonesia. Museum ini adalah yang pertama di Indonesia yang memiliki
+                koleksi seni modern dan kontemporer Indonesia dan internasional.
+              </p>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <img
+                src="assets/img/destinasi/galerini.jpg"
+                class="w-100 mb-3"
+                alt="unsplash.com"
+              />
+              <h4 class="fw-semibold">Galeri Indonesia Kaya</h4>
+              <p>
+                Galeri Indonesia Kaya (disingkat GIK) adalah ruang publik yang memadukan konsep
+                edukasi dan digital dengan tujuan untuk memperkenalkan dan mengapresiasi seni-budaya
+                Indonesia khususnya kepada generasi muda, yang bertempat di Grand Indonesia, Jakarta,
+                Indonesia.
+              </p>
+          </div>
+        </div>
+      </div>
+
+    <div class="footer pt-5" >
+      <div class="container">
+        <div class="row row-cols-lg-3 row-cols-1 justify-content-between">
+          <div class="col col-lg-6 mb-lg-0 mb-4">
+            <h2 class="fw-bold text-white mb-3">JakIngfo</h2>
+            <p class="text-white-50">Website berisi informasi mengenai tempat wisata, aktivitas dan acara di Jakarta yang tersebar di seluruh daerah administrasi.</p>
+          </div>
+          <div class="col col-lg-2 d-flex flex-column mb-lg-0 mb-4">
+            <h5 class="fw-bold text-white">Menu</h5>
+            <a href="#home" class="text-white-50 mt-3 text-decoration-none">Home</a>
+            <a href="about.html" class="text-white-50 mt-2 text-decoration-none">About</a>
+            <a href="destinasi.html" class="text-white-50 mt-2 text-decoration-none">Destinasi Wisata</a>
+            <a href="event.html" class="text-white-50 mt-2 text-decoration-none">Aktivitas dan Acara</a>
+            <a href="tips.html" class="text-white-50 mt-2 text-decoration-none">Tips Perjalanan</a>
+            <a href="kontak.html" class="text-white-50 mt-2 text-decoration-none">Kontak</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="text-white text-center"> Kelompok 3 TRK B</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="dist/js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
